@@ -33,9 +33,11 @@ $edad_de_joel = 23;
     </script>
     <h1>Estamos usando javascritp con php</h1> 
     <ul class="menu">
+        <li class="menu-item"><a href="/index.php">Home</a></li>
         <li class="menu-item"><a href="/javascript.php">Javascript con php</a></li>
         <li class="menu-item"><a href="/buenas-practicas.php">Buenas Practicas</a></li>
-        <li class="menu-item"><a href="./peticiones/index.html">Peticiones</a></li>
+        <li class="menu-item"><a href="/peticiones/index.html">Peticiones</a></li>
+        <li class="menu-item"><a href="/forms-get/form-get.php">form-get</a></li>
     </ul>
 </header>
 <body>

@@ -30,33 +30,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html con php</title>
-    <style>
-        
-        pre {
-        
-            background-color: lightblue;
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 30px;
-        }
-        body {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-        }
-        section {
-            width: 75%;
-            padding: 25px;
-            background-color: lightgray;
-            border-radius: 25px;
-            margin-bottom: 20px;
-            object-fit: contain;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <header> 
     <h1>Estamos usando PHP con html ! HOLAA </h1> 
+    <ul class="menu">
+        <li class="menu-item"><a href="/javascript.php">Javascript con php</a></li>
+        <li class="menu-item"><a href="/buenas-practicas.php">Buenas Practicas</a></li>
+        <li class="menu-item"><a href="./peticiones/index.html">Peticiones</a></li>
+    </ul>
 </header>
 <body>
     <section>

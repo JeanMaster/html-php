@@ -40,6 +40,8 @@
         <li class="menu-item"><a href="/buenas-practicas.php">Buenas Practicas</a></li>
         <li class="menu-item"><a href="/peticiones/index.html">Peticiones</a></li>
         <li class="menu-item"><a href="/forms-get/form-get.php">form-get</a></li>
+        <li class="menu-item"><a href="/forms-post/form-post.php">form-post</a></li>
+        <li class="menu-item"><a href="/files/files.php">files</a></li>
     </ul>
 </header>
 <body>

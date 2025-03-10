@@ -33,6 +33,7 @@
             border-radius: 30px;
             display: flex;
             justify-content: space-evenly;
+            flex-wrap: wrap;
             
         }
 
@@ -45,4 +46,8 @@
 
         ul a:hover {
            color: white ; 
+        }
+
+        li {
+            margin-right: 5px;
         }

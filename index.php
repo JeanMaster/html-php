@@ -42,6 +42,9 @@
         <li class="menu-item"><a href="/forms-get/form-get.php">form-get</a></li>
         <li class="menu-item"><a href="/forms-post/form-post.php">form-post</a></li>
         <li class="menu-item"><a href="/files/files.php">files</a></li>
+        <li class="menu-item"><a href="/more-forms/more-forms.php">more forms</a></li>
+        <li class="menu-item"><a href="/validacionphp/validacion.php">validacion php</a></li>
+        <li class="menu-item"><a href="/Sanitizando/formulario.php">Sanitazand</a></li>
     </ul>
 </header>
 <body>

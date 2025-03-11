@@ -45,6 +45,7 @@
         <li class="menu-item"><a href="/more-forms/more-forms.php">more forms</a></li>
         <li class="menu-item"><a href="/validacionphp/validacion.php">validacion php</a></li>
         <li class="menu-item"><a href="/Sanitizando/formulario.php">Sanitazand</a></li>
+        <li class="menu-item"><a href="/formulario-contacto/index.php">Formulario Contacto</a></a></li>
     </ul>
 </header>
 <body>

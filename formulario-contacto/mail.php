@@ -15,8 +15,8 @@ function sendMail($subject, $body, $email, $name, $html = false) {
     $phpmailer->SMTPAuth = true;
     $phpmailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $phpmailer->Port = 465;
-    $phpmailer->Username = 'jeancarlos70@gmail.com';
-    $phpmailer->Password = 'kgym jsam aekz aaek';
+    $phpmailer->Username = 
+    $phpmailer->Password = 
 
     //  Añadiendo destinatarios
     $phpmailer->setFrom('mark@facebook.com', 'Mark Zuckerberg');

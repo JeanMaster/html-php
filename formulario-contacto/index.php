@@ -1,5 +1,7 @@
 <?php
 
+require "mail.php";
+
 function validate($name, $email, $subject, $message, $form) {
     return !empty($name) && !empty($email) && !empty($subject) && !empty($message);
 }
@@ -15,7 +17,10 @@ if ( isset($_POST["form"]) ) {
         $subject = $_POST["subject"];
         $message = $_POST["message"];
 
+        $body = "$name <$email> te envia el siguiente mensaje: <br><br> $message";
+
         // Mandar el correo
+        sendMail($subject, $body, $email, $name, true);
 
         $status = "success";
 
@@ -34,7 +39,7 @@ if ( isset($_POST["form"]) ) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/formulario-contacto/styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Formulario de contacto</title>
 </head>
 <body>
